@@ -7,6 +7,7 @@ TEST(AbsFunctionTest, BasicCases)
 	EXPECT_EQ(Abs(-5), 5);
 	EXPECT_EQ(Abs(0), 0);
 }
+
 TEST(AbsFunctionTest, EdgeCases)
 {
 	EXPECT_EQ(Abs(::std::numeric_limits<int>::max()), ::std::numeric_limits<int>::max());
